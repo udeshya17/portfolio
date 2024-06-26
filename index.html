@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udeshya Portfolio</title>
+
+    <!--- favicon-->
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/svg+xml" />
+
+    <!--- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--- custom css link-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+    <!-- <link rel="preload" as="image" href="./assets/images/Blog.svg" /> -->
+  </head>
+
+  <body>
+    <!--- HEADER -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a class="navbar-brand" style="color:black; " href="#" width="84" height="44"><b>Udeshya</b></a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a class="navbar-brand" style="color:white; " href="#" width="84" height="44"><b>Udeshya</b></a>
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#one" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#two" class="navbar-link">About</a>
+            </li>
+
+            <li>
+              <a href="#three" class="navbar-link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#four" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://www.crio.do/learn/portfolio/udeshyasharma17/" target="_blank" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/udeshya/" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+              
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/udeshyaa/" target="_blank" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!--- HERO -->
+
+        <section class="section hero" id="one" aria-label="home">
+          <div class="container">
+            <figure class="hero-banner">
+              <img
+                src="./assets/image1.jpg"
+                width="560"
+                height="540"
+                alt="My-Pic"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="hero-content">
+              <h1
+                class="h1 hero-title"
+                data-reveal="top"
+                data-reveal-delay="0.5s"
+              >
+                I'm a web Developer
+              </h1>
+
+              <p
+                class="section-text"
+                data-reveal="top"
+                data-reveal-delay="0.75s"
+              >
+              Hello, I'm Udeshya, a web developer skilled in creating dynamic and user-friendly websites using HTML, CSS, JavaScript, and various frameworks. Let's connect and explore the possibilities in web development!
+              </p>
+
+              <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                <a href="https://drive.google.com/file/d/19H0E-af2607Ncm3s_8zyiamJAeRh2FV2/view?usp=sharing" target="_blank" class="btn btn-primary">Resume</a>
+
+                <a href="https://www.linkedin.com/in/udeshya/" target="_blank" class="btn btn-secondary">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--- ABOUT -->
+
+        <section class="section about" id="two" aria-label="about">
+          <div class="container">
+            <div class="wrapper">
+              <div data-reveal="left">
+                <h2 class="h2 section-title">About me?</h2>
+
+                <p class="section-text">
+                  I am a versatile web developer specializing in crafting dynamic, 
+                  user-friendly websites and applications. 
+                  With expertise in front-end and back-end technologies like 
+                  HTML, CSS, JavaScript, and various frameworks, I create seamless 
+                  digital experiences that meet clients' needs. 
+                  My passion lies in transforming ideas into functional, visually 
+                  appealing solutions.
+                </p>
+              </div>
+
+              <ul class="progress-list" data-reveal="right">
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>HTML, CSS</p>
+
+                    <span class="span">100 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 100%; background-color: #c7b1dd"
+                    ></div>
+                  </div>
+                </li>
+
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>React.js</p>
+
+                    <span class="span">80 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 80%; background-color: #8caeec"
+                    ></div>
+                  </div>
+                </li>
+
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>JavaScript</p>
+
+                    <span class="span">85 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 85%; background-color: #b0d4c1"
+                    ></div>
+                  </div>
+                </li>
+
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>GIT</p>
+
+                    <span class="span">90 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 90%; background-color: #e3a6b6"
+                    ></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--- PROJECT -->
+
+        <section class="section project" id="three" aria-labelledby="project-label">
+          <div class="container">
+            <div class="title-wrapper" data-reveal="top">
+              <div>
+                <h2 class="h2 section-title" id="project-label">
+                  Projects
+                </h2>
+
+                <p class="section-text">
+                  Check out some of my latest projects.
+                </p>
+              </div>
+
+              <a href="https://www.crio.do/learn/portfolio/udeshyasharma17/" target="_blank" class="btn btn-secondary">See All Projects</a>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="project-card project-card-1"
+                  style="background-color: #f8f5fb"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <h1 class="card-tag" style="color: #a07cc5">Ecommerce Website</h1>
+
+                    <h3 class="h3 card-title">QKart Frontend</h3>
+
+                    <p class="card-text">
+                      QKart is an e-commerce application offering a variety of products for customers to choose from. 
+                    </p>
+
+                    <a href="https://qkart-frontend-o8iwoxcwx-udeshyas-projects.vercel.app/" target="_blank" class="btn-text" style="color: #a07cc5">
+                      <span class="span">Live Demo</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="right">
+                    <img
+                      src="./assets/project1.png"
+                      width="200"
+                      height="100"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-2"
+                  style="background-color: #f1f5fd"
+                >
+                  <div class="card-content" data-reveal="right">
+                    <p class="card-tag" style="color: #3f78e0">Travel Website</p>
+
+                    <h3 class="h3 card-title">QTrip Dynamic</h3>
+
+                    <p class="card-text">
+                      QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities. 
+                    </p>
+
+                    <a href="https://qtrip-dynamic-4wulp71zz-udeshyas-projects.vercel.app/" target="_blank" class="btn-text" style="color: #3f78e0">
+                      <span class="span">Live Demo</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="left">
+                    <img
+                      src="./assets/project2.jpg"
+                      width="600"
+                      height="367"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-3"
+                  style="background-color: #f5faf7"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #7cb798">Music Web</p>
+
+                    <h3 class="h3 card-title">QTify</h3>
+
+                    <p class="card-text">
+                      QTify is a song-browsing application built from scratch using ReactJS paired with Material UI to deliver a seamless.
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #7cb798">
+                      <span class="span">Still Working</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="right">
+                    <img
+                      src="./assets/project4.jpg"
+                      width="200"
+                      height="167"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-4"
+                  style="background-color: #fcf4f6"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #d16b86">News Feed</p>
+
+                    <h3 class="h3 card-title">XBoard</h3>
+
+                    <p class="card-text">
+                      XBoard is a News Feed website that will feature the latest news for select topics, redirect to that topic from Flipboard.
+                    </p>
+
+                    <a href="https://buildout-xboard-pybw9k5q5-udeshyas-projects.vercel.app/" class="btn-text" style="color: #d16b86">
+                      <span class="span">Live Demo</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="right">
+                    <img
+                      src="./assets/project3.jpg"
+                      width="620"
+                      height="370"
+                      loading="lazy"
+                      alt="Mobile Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--- CONTACT -->
+
+        <section class="section contact" id="four" aria-label="contact">
+          <div class="container">
+            <div class="contact-card">
+              <div class="contact-content" data-reveal="left">
+                <div class="card-icon">
+                  <a href="mailto:your-email@example.com" class="social-link" target="_blank">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </a>
+                  
+                </div>
+
+                <h2 class="h2 section-title">
+                  You can connect with me by this...
+                </h2>
+
+                <p class="section-text">
+                  If you'd like to connect with me, please feel free to reach out via LinkedIn or email. I'm always excited to discuss new opportunities, collaborations, and ideas in web development. Let's create something amazing together!
+                </p>
+              </div>
+
+              <form action="" class="contact-form" data-reveal="right">
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name *"
+                    required
+                    class="input-field"
+                    id="name"
+                  />
+
+                  <input
+                    type="email"
+                    name="email_address"
+                    placeholder="Email *"
+                    required
+                    class="input-field"
+                    id="email"
+                  />
+                </div>
+
+                <textarea
+                  name="message"
+                  placeholder="Message *"
+                  required
+                  class="input-field"
+                  id="message"
+                ></textarea>
+
+                <button type="submit" class="btn btn-secondary" id="button">
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--- FOOTER -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">© 2024 By Udeshya</p>
+
+        <ul class="social-list">
+          <li>
+            <a href="https://www.crio.do/learn/portfolio/udeshyasharma17/" target="_blank" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/udeshya/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/udeshyaa/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!--Custom Javascript-->
+    <script src="script.js"></script>
+
+    <!--Icon Link-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
